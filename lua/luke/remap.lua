@@ -49,8 +49,6 @@ vim.api.nvim_create_autocmd("User", {
 })
 vim.keymap.set("n", "<leader>op", "<cmd>Obsidian paste_img<CR>", { desc = 'Obsidian Paste Img' })
 
-
-
 -- Folds
 -- Checks each line to see if it matches a markdown heading (#, ##, etc.):
 -- It’s called implicitly by Neovim’s folding engine by vim.opt_local.foldexpr

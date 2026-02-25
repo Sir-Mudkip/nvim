@@ -39,6 +39,10 @@ vim.keymap.set('n', '<leader>fr', builtin.oldfiles, { desc = 'Telescope recent f
 -- Tree NvimTreeToggle
 vim.keymap.set("n", "<leader>e", "<cmd>Neotree<CR>", { desc = 'Toggle file tree' })
 
+-- Claude Code:
+vim.keymap.set('n', '<leader>cc', '<cmd>ClaudeCode<CR>', { desc = 'Toggle Claude Code' })
+vim.keymap.set('n', '<leader>cR', '<cmd>ClaudeCodeResume<CR>', { desc = 'Claude Code Resume' })
+
 -- Obsidian
 vim.api.nvim_create_autocmd("User", {
    pattern = "ObsidianNoteEnter",

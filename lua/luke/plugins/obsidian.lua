@@ -18,11 +18,11 @@ return {
     workspaces = {
       {
         name = "personal",
-        path = "/var/home/luke/Documents/Pentesting Notes",
+        path = vim.fn.expand("~") .. "/Documents/Pentesting Notes",
       },
     },
     attachments = {
-        img_folder = "Pasted Images", 
+        folder = "Pasted Images", 
     },
   },
 }
